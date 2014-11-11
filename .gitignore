@@ -6,3 +6,6 @@
 #Test input and output
 *.html
 *.xml
+#External resources
+*.css
+*.js

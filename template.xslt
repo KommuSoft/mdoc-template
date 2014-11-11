@@ -10,9 +10,7 @@
   <xsl:template match="Page">
     <html>
       <head>
-        <title>
-          <xsl:value-of select="Title" />
-        </title>
+        <title><xsl:value-of select="Title" /></title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <xsl:call-template name="create-default-style" />
         <xsl:call-template name="create-default-script" />
@@ -40,7 +38,7 @@
   </xsl:template>
 
   <xsl:template name="create-default-style">
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" media="screen"/>
+    <link href="/home/kommusoft/Projects/mdoc-template/bootstrap.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-responsive.min.css" media="screen"/>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
@@ -284,9 +282,12 @@
   </xsl:template>
 
   <xsl:template name="create-default-collection-title">
-    <div class="CollectionTitle">
-      <xsl:apply-templates select="CollectionTitle/node()" />
-    </div>
+    <div class="CollectionTitle"><ol class="breadcrumb"><xsl:apply-templates select="CollectionTitle/a"/>
+     </ol></div>
+  </xsl:template>
+
+  <xsl:template mode="" match="CollectionTitle/a">
+    <li><a href="{@href}"><xsl:value-of select="node()" /></a></li>
   </xsl:template>
 
   <xsl:template name="create-default-title">
