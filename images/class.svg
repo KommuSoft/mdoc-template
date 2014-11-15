@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="64px"
+   height="64px"
+   id="svg2993"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="struct.svg">
+  <defs id="defs2995">
+    <linearGradient inkscape:collect="always" id="pokeyc" gradientUnits="userSpaceOnUse" x1="0%" y1="0%" x2="100%" y2="0%" gradientTransform="rotate(45)">
+      <stop style="stop-color:#f6ea9e;stop-opacity:1;" offset="0" id="speedys0" />
+      <stop style="stop-color:#edb418;stop-opacity:1;" offset="1" id="speedys1" />
+    </linearGradient>
+    <linearGradient inkscape:collect="always" id="speedyc" gradientUnits="userSpaceOnUse" x1="0%" y1="0%" x2="100%" y2="0%" gradientTransform="rotate(45)">
+      <stop style="stop-color:#fbb9fb;stop-opacity:1;" offset="0" id="pokeys0" />
+      <stop style="stop-color:#de44e0;stop-opacity:1;" offset="1" id="pokeys0" />
+    </linearGradient>
+    <linearGradient inkscape:collect="always" id="bashfulc" gradientUnits="userSpaceOnUse" x1="0%" y1="0%" x2="100%" y2="0%" gradientTransform="rotate(45)">
+      <stop style="stop-color:#99cdff;stop-opacity:1;" offset="0" id="bashfuls0" />
+      <stop style="stop-color:#499fe3;stop-opacity:1;" offset="1" id="bashfuls1" />
+    </linearGradient>
+    <linearGradient inkscape:collect="always" id="pokeyr" gradientUnits="userSpaceOnUse" x1="0%" y1="0%" x2="100%" y2="0%" gradientTransform="rotate(45)">
+      <stop style="stop-color:#e1aa14;stop-opacity:1;" offset="0" id="speedyt0" />
+      <stop style="stop-color:#81620c;stop-opacity:1;" offset="1" id="speedyt1" />
+    </linearGradient>
+    <linearGradient inkscape:collect="always" id="speedyr" gradientUnits="userSpaceOnUse" x1="0%" y1="0%" x2="100%" y2="0%" gradientTransform="rotate(45)">
+      <stop style="stop-color:#db65dc;stop-opacity:1;" offset="0" id="pokeyt0" />
+      <stop style="stop-color:#8c2d8d;stop-opacity:1;" offset="1" id="pokeyt0" />
+    </linearGradient>
+    <linearGradient inkscape:collect="always" id="bashfulr" gradientUnits="userSpaceOnUse" x1="0%" y1="0%" x2="100%" y2="0%" gradientTransform="rotate(45)">
+      <stop style="stop-color:#5b9bd8;stop-opacity:1;" offset="0" id="bashfult0" />
+      <stop style="stop-color:#003399;stop-opacity:1;" offset="1" id="bashfult1" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.5"
+     inkscape:cx="2.5454545"
+     inkscape:cy="32"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:document-units="px"
+     inkscape:grid-bbox="true"
+     inkscape:window-width="1600"
+     inkscape:window-height="847"
+     inkscape:window-x="0"
+     inkscape:window-y="31"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata2998">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <path style="fill:none;stroke:#6f8097;stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 14,26 46,26 z" id="bashful" inkscape:connector-curvature="0" />
+    <path style="fill:none;stroke:#6f8097;stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 30,26 30,50 46,50" id="bashful" inkscape:connector-curvature="0" />
+    <path style="fill:url(#pokeyc);fill-opacity:1;stroke:url(#pokeyr);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 22,2 34,14 14,34 2,22 z" id="pokey" inkscape:connector-curvature="0" />
+    <path style="fill:url(#speedyc);fill-opacity:1;stroke:url(#speedyr);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 50,14 58,22 46,34 38,26 z" id="speedy" inkscape:connector-curvature="0" />
+    <path style="fill:url(#bashfulc);fill-opacity:1;stroke:url(#bashfulr);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 50,38 58,46 46,58 38,50 z" id="bashful" inkscape:connector-curvature="0" />
+  </g>
+</svg>
