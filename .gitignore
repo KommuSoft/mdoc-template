@@ -9,3 +9,8 @@
 #External resources
 *.css
 *.js
+#Images and other media
+*.png
+*.svg
+*.jpg
+*.flv
